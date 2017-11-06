@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hocruxx.adi.modul3kel4.MainActivity">
+
+    <Button
+        android:id="@+id/btnVideo"
+        android:layout_width="118dp"
+        android:layout_height="67dp"
+        android:background="@color/colorAccent"
+        android:text="@string/btn_Video"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintTop_toTopOf="@+id/justifyText"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="32dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:id="@+id/justifyText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/justifyText"
+        app:layout_constraintBottom_toTopOf="@+id/justifyText1"
+        app:layout_constraintLeft_toRightOf="@+id/btnVideo"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btnChat"
+        android:layout_width="118dp"
+        android:layout_height="67dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/colorAccent"
+        android:text="@string/btn_chat"
+        app:layout_constraintTop_toTopOf="@+id/justifyText1"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/btnVideo"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="@+id/btnVideo" />
+
+
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:id="@+id/justifyText1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/justifyText1"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/btnChat"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toTopOf="@+id/justifyText"
+        android:layout_marginTop="100dp"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+
+
+</android.support.constraint.ConstraintLayout>

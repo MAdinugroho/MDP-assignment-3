@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">modul3kel4</string>
+    <string name="ket_video1">Video Online</string>
+    <string name="ket_video2">Video Offline</string>
+    <string name="playVideo">Play</string>
+    <string name="btn_Video">Video Player</string>
+    <string name="btn_chat">Chatting</string>
+    <string name="justifyText">Video player adalah istilah yang biasa digunakan untuk mendeskripsikan software komputer untuk memainkan file vidio. (I) Sebagian besar media player dapat menampilkan sejumlah format media, baik file audio ataupun video, sedangkan yang khusus untuk memainkan video disebut dengan video player.\n</string>
+    <string name="justifyText1">Chatting adalah salah satu  fasilitas untuk berkomunikasi antar sesame pemakai internet dengan menggunakan media tulis secara online dan real time. Atau Chating adalah hubungan komunikasi antar pengguna komputer dalam Internet secara online yang umumnya berupa teks.\n</string>
+    <string name="review">Review Acer Predator triton 700. Berbekal Max-Q, Acer menawarkan spesifikasi yang terbilang tinggi untuk Predator Triton 700 ini, yaitu dengan prosesor Core i5/i7 7th Gen. dan GPU GeForce GTX 10 Series. Sayangnya, tidak disebutkan secara rinci tipe prosesor dan GPU yang akan hadir di laptop ini. Namun, bisa ditebak bahwa Acer akan menawarkan Predator Triton 700 ini dalam beberapa varian.Bodi dari laptop ini dibalut dengan nuansa warna gelap kehitaman, dengan desain garang ala Predator. Acer menyebutkan tebal dari bodi Predator Triton 700 ini hanya 18.9 mm saja. Laptop ini hadir dengan layar yang menawarkan resolusi maks. 1920 x 1080 piksel. Sayangnya, belum ada keterangan fitur apa saja yang diusung oleh layar tersebut.Selain bodi dengan nuansa Predator yang garang, laptop gaming ini terlihat unik karena sepintas tidak ada touchpad di bodi Predator Triton 700. Namun, hal itu bukan berarti Acer tidak menyertakan touchpad. Mereka menghadirkan glass touchpad, yang menyatu dengan modul transparan di atas keyboard yang menampilkan sistem pendingin dari laptop gaming tersebut. \n</string>
+    <string name="adi">Adinugroho</string>
+    <string name="faris">Faris Lukman</string>
+    <string name="nim1">21120115140063</string>
+    <string name="nim2">21120115140079</string>
+</resources>
